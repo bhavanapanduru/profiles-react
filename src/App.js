@@ -6,7 +6,7 @@ function App() {
     const profile = [
         {
             image:
-                "https://png.pngtree.com/svg/20161230/little_helper_657605.png"
+                "https://www.axiumradonmitigations.com/wp-content/uploads/2015/01/icon-user-default.png"
         }
     ];
     return (
