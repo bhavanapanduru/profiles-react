@@ -1,0 +1,7 @@
+.card {
+    position: absolute;
+    margin: 50px;
+    width: 20vw;
+    height: 20vw;
+    background-color: rgb(231, 231, 231);
+}

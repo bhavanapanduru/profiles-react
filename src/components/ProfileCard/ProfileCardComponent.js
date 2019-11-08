@@ -1,7 +1,8 @@
 import React from "react";
+import "./ProfileCardComponent.css";
 
-function ProfileCardComponent(props) {
-    return <div>ProfileCardComponent Works!</div>;
+function ProfileCardComponent({ props }) {
+    return <div className="card"></div>;
 }
 
 export default ProfileCardComponent;

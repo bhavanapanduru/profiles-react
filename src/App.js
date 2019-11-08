@@ -5,7 +5,7 @@ import ProfileCardComponent from "./components/ProfileCard/ProfileCardComponent"
 function App() {
     return (
         <div className="App">
-            <ProfileCardComponent></ProfileCardComponent>
+            <ProfileCardComponent />
         </div>
     );
 }
