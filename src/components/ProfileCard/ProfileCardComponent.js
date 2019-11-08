@@ -4,11 +4,11 @@ import "./ProfileCardComponent.css";
 function ProfileCardComponent({ person }) {
     return (
         <div className="card">
-            <img src={person[0].image} alt="Person" />
-            <div className="name">{person[0].name}</div>
-            <ul class="description">
-                <li>Age: {person[0].age}</li>
-                <li>Place: {person[0].place}</li>
+            <img src={person.image} alt="Person" />
+            <div className="name">{person.name}</div>
+            <ul id="description">
+                <li id="age">Age: {person.age}</li>
+                <li id="place">Place: {person.place}</li>
             </ul>
         </div>
     );
