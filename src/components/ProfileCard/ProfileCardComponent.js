@@ -1,10 +1,11 @@
 import React from "react";
 import "./ProfileCardComponent.css";
 
-function ProfileCardComponent({ profile }) {
+function ProfileCardComponent({ person }) {
     return (
         <div className="card">
-            <img src={profile[0].image} alt="Person" />
+            <img src={person[0].image} alt="Person" />
+            <div className="name">{person[0].name}</div>
         </div>
     );
 }

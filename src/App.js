@@ -3,15 +3,16 @@ import "./App.css";
 import ProfileCardComponent from "./components/ProfileCard/ProfileCardComponent";
 
 function App() {
-    const profile = [
+    const profiles = [
         {
             image:
-                "https://www.axiumradonmitigations.com/wp-content/uploads/2015/01/icon-user-default.png"
+                "https://www.axiumradonmitigations.com/wp-content/uploads/2015/01/icon-user-default.png",
+            name: "Bhavana P"
         }
     ];
     return (
         <div className="App">
-            <ProfileCardComponent profile={profile} />
+            <ProfileCardComponent person={profiles} />
         </div>
     );
 }
