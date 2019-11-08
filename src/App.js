@@ -7,7 +7,9 @@ function App() {
         {
             image:
                 "https://www.axiumradonmitigations.com/wp-content/uploads/2015/01/icon-user-default.png",
-            name: "Bhavana P"
+            name: "Bhavana P",
+            age: 23,
+            place: "AP"
         }
     ];
     return (
